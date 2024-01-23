@@ -1,0 +1,126 @@
+## Entrada-1 
+```
+CREATE STACK POKEDEX
+Charmander/Fire, Charmeleon/Fire, Charizard/Fire, Chikorita/Grass, Psyduck/Water, Meganium/Grass, Chimchar/Fire, Cacnea/Grass, Wailmer/Water
+SHOW STACK POKEDEX
+CREATE QUEUE POKEDEX
+Blastoise/Water, Feraligatr/Water, Sceptile/Grass, Gorebyss/Water, Piplup/Water, Tepig/Fire, Torchic/Fire, Typhlosion/Fire, Rapidash/Fire
+SHOW QUEUE POKEDEX
+CREATE STACK TEAM
+Fire Water Fire
+SHOW STACK TEAM
+CREATE QUEUE TEAM
+Fire Grass Water
+SHOW QUEUE TEAM
+ENCOUNTER
+```
+## Salida-1
+```
+Lista del equipo STACK:
+Wailmer/Water, Cacnea/Grass, Chimchar/Fire, Meganium/Grass, Psyduck/Water, Chikorita/Grass, Charizard/Fire, Charmeleon/Fire, Charmander/Fire
+Lista del equipo QUEUE:
+Blastoise/Water, Feraligatr/Water, Sceptile/Grass, Gorebyss/Water, Piplup/Water, Tepig/Fire, Torchic/Fire, Typhlosion/Fire, Rapidash/Fire
+Lista del equipo STACK:
+Charizard/Fire, Wailmer/Water, Chimchar/Fire
+Lista del equipo QUEUE:
+Tepig/Fire, Sceptile/Grass, Blastoise/Water
+      TURN 1
+Charizard VS Tepig
+---- EMPATE ----
+      TURN 2
+Charizard VS Sceptile
+---- Charizard/Fire GANO ----
+      TURN 3
+Charizard VS Blastoise
+---- Blastoise/Water GANO ----
+      TURN 4
+Wailmer VS Tepig
+---- Wailmer/Water GANO ----
+      TURN 5
+Wailmer VS Blastoise
+---- EMPATE ----
+---- TERMINA EN EMPATE ----
+```
+## Entrada-2
+```
+CREATE STACK POKEDEX
+Charmander/Fire, Charmeleon/Fire, Charizard/Fire, Chikorita/Grass, Psyduck/Water, Meganium/Grass, Chimchar/Fire, Cacnea/Grass, Wailmer/Water
+SHOW STACK POKEDEX
+CREATE QUEUE POKEDEX
+Blastoise/Water, Feraligatr/Water, Sceptile/Grass, Gorebyss/Water, Piplup/Water, Tepig/Fire, Torchic/Fire, Typhlosion/Fire, Rapidash/Fire
+SHOW QUEUE POKEDEX
+CREATE STACK TEAM
+Fire Fire Water
+SHOW STACK TEAM
+CREATE QUEUE TEAM
+Fire Grass Water
+SHOW QUEUE TEAM
+ENCOUNTER
+```
+## Salida-2
+```
+Lista del equipo STACK:
+Wailmer/Water, Cacnea/Grass, Chimchar/Fire, Meganium/Grass, Psyduck/Water, Chikorita/Grass, Charizard/Fire, Charmeleon/Fire, Charmander/Fire
+Lista del equipo QUEUE:
+Blastoise/Water, Feraligatr/Water, Sceptile/Grass, Gorebyss/Water, Piplup/Water, Tepig/Fire, Torchic/Fire, Typhlosion/Fire, Rapidash/Fire
+Lista del equipo STACK:
+Wailmer/Water, Charizard/Fire, Chimchar/Fire
+Lista del equipo QUEUE:
+Tepig/Fire, Sceptile/Grass, Blastoise/Water
+      TURN 1
+Wailmer VS Tepig
+---- Wailmer/Water GANO ----
+      TURN 2
+Wailmer VS Sceptile
+---- Sceptile/Grass GANO ----
+      TURN 3
+Charizard VS Blastoise
+---- Blastoise/Water GANO ----
+      TURN 4
+Chimchar VS Sceptile
+---- Chimchar/Fire GANO ----
+      TURN 5
+Chimchar VS Blastoise
+---- Blastoise/Water GANO ----
+TEAM QUEUE WINS
+```
+## Entrada-3
+```
+CREATE STACK POKEDEX
+Charmander/Fire, Charmeleon/Fire, Charizard/Fire, Chikorita/Grass, Psyduck/Water, Meganium/Grass, Chimchar/Fire, Cacnea/Grass, Wailmer/Water
+SHOW STACK POKEDEX
+CREATE QUEUE POKEDEX
+Blastoise/Water, Feraligatr/Water, Sceptile/Grass, Gorebyss/Water, Piplup/Water, Tepig/Fire, Torchic/Fire, Typhlosion/Fire, Rapidash/Fire
+SHOW QUEUE POKEDEX
+CREATE STACK TEAM
+Fire Grass Fire Water
+SHOW STACK TEAM
+CREATE QUEUE TEAM
+Fire Fire Grass Grass 
+SHOW QUEUE TEAM
+ENCOUNTER
+```
+## Salida-3
+```
+Lista del equipo STACK:
+Wailmer/Water, Cacnea/Grass, Chimchar/Fire, Meganium/Grass, Psyduck/Water, Chikorita/Grass, Charizard/Fire, Charmeleon/Fire, Charmander/Fire
+Lista del equipo QUEUE:
+Blastoise/Water, Feraligatr/Water, Sceptile/Grass, Gorebyss/Water, Piplup/Water, Tepig/Fire, Torchic/Fire, Typhlosion/Fire, Rapidash/Fire
+Lista del equipo STACK:
+Wailmer/Water, Charizard/Fire, Cacnea/Grass, Chimchar/Fire
+Lista del equipo QUEUE:
+Tepig/Fire, Torchic/Fire, Sceptile/Grass
+      TURN 1
+Wailmer VS Tepig
+---- Wailmer/Water GANO ----
+      TURN 2
+Wailmer VS Torchic
+---- Wailmer/Water GANO ----
+      TURN 3
+Wailmer VS Sceptile
+---- Sceptile/Grass GANO ----
+      TURN 4
+Charizard VS Sceptile
+---- Charizard/Fire GANO ----
+TEAM STACK WINS
+```
