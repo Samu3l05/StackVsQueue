@@ -1,0 +1,22 @@
+Aca tuve varias problemas porque mi netbeans no se podia conectar con mi cuenta de git para poder subir la carpeta del proyecto por un problema de conexion con el proxy.
+Por la cual subi la carpeta rsc mas los archivos de entrada y salida.
+
+Pasos para la ejecucion:
+1.crear una carpeta con el nombre de "Programacion" en el escritorio.
+luego puede descargar la carpeta "src" y agregarla a esa carpeta mas los archivos de Entrada.mpdm y Salida.mpdm.
+2.Por la razon de que no pense bien la ejecucion desde otro ordenador en el archivo llamado "Prueba.java" donde esta el main del programa para que se pueda ejecutar se tendria
+que cambiar la ruta de la creacion del archivo salida.mpdm y la de los accesos con el FileReader al archivo de entrada.mpdm correspondiente a la ruta del archivo en la carpeta 
+"Programacion" ya creada en su escritorio.
+3.Ahora al ejecutar la cmd, consola o terminal ya sea de windows o linux
+yo por lo menos lo ejecuto de la siguiente manera: 
+cd "(Ruta de la carpeta src descargada)"
+javac Prueba.java (acá tal vez de un error por el netbeans, el cual me sorprendio dejandome usar una variable con la letra ñ y no me daba error, asi que lo deje asi aunque se que no me
+deberia de dejar por ser una letra no existente en el ingles. Este fue el unico error que me dio al ejecutarlo por la terminal el cual solucione cambiando la variable "tamaño" en
+QueueGrupo y StackGrupopor por "tamanio")
+Y para finalizar poner:
+java Prueba para ejecutar el programa.(le deberian salir en la terminal varios msj de las instrucciones que vaya encontrando en el archivo el cual deje como indicacion) 
+Y listo eso seria para windows en linux seria:
+- cd más la ruta de la carpeta sin las comillas.
+- ls Prueba.java
+- javac Prueba.java
+- java Prueba
